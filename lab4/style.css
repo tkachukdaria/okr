@@ -110,10 +110,6 @@ tr {
     background-color: #eee;
 }
 
-table a {
-    text-decoration: underline;
-}
-
 .img_cell {
     text-align: center;
 }
@@ -121,4 +117,20 @@ table a {
 img {
     border-radius: 5px;
     margin: 10px;
+}
+
+table a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3 + ul {
+    background-color: pink;
+    padding: 10px;
+}
+
+table > caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
 }
